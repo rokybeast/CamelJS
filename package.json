@@ -1,8 +1,9 @@
 {
   "name": "cameljs",
   "version": "0.1.0",
-  "description": "A JavaScript library for transforming data",
+  "description": "A modern JavaScript web framework for building user interfaces",
   "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
@@ -21,9 +22,13 @@
   },
   "keywords": [
     "javascript",
-    "transformation",
-    "data",
-    "utility"
+    "web-framework",
+    "frontend",
+    "ui",
+    "components",
+    "virtual-dom",
+    "reactive",
+    "typescript"
   ],
   "author": "",
   "license": "MIT",
